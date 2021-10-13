@@ -5,7 +5,6 @@ namespace App\Commands;
 use App\Services\BountyListService;
 use Illuminate\Console\Scheduling\Schedule;
 use LaravelZero\Framework\Commands\Command;
-use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
 
 class FetchList extends Command
